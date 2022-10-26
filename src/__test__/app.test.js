@@ -7,9 +7,9 @@ const arrHero = [
 ];
 
 const sortarrHero = [
-  { name: 'мечник', health: 10 },
   { name: 'маг', health: 100 },
   { name: 'лучник', health: 80 },
+  { name: 'мечник', health: 10 },
 ];
 
 describe('testing fuction arrSort', () => {
