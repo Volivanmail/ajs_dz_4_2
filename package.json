@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "babel src -d lib"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.19.3",
+    "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
     "babel-jest": "^29.2.1",
     "eslint": "^8.2.0",
